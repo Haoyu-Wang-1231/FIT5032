@@ -15,6 +15,9 @@
                 <li class="nav-item">
                     <RouterLink to="/firebaseRegister" class="nav-link" active-class="active">register</RouterLink>
                 </li>
+                <li class="nav-item">
+                    <RouterLink to="/addbook" class="nav-link" active-class="active">add book</RouterLink>
+                </li>
 
             </ul>
         </header>

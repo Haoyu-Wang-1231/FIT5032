@@ -137,7 +137,7 @@ const validateGender = (input) => {
   <div class="container mt-5">
     <div class="row">
       <div class="col-sm-10 col-md-8 offset-md-1 col-lg-10">
-        <h1 class="text-center">🗄️Library Registration Form</h1>
+        <h1 class="text-center">Library Registration Form</h1>
         <form @submit.prevent="submitForm">
           <div class="row mb-3">
             <div class="col-md-6 col-sm-6">
