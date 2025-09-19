@@ -73,7 +73,7 @@ const updateForm = async () => {
         querySnapshot.forEach(async (element) => {
             const bookref = element.ref;
             await updateDoc(bookref, {
-                name: isbnNumber
+                name: updateform.value.name
             })
         });
         updateform.value.isbn = null
