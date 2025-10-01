@@ -18,7 +18,9 @@
                 <li class="nav-item">
                     <RouterLink to="/addbook" class="nav-link" active-class="active">add book</RouterLink>
                 </li>
-
+                <li class="nav-item">
+                    <RouterLink to="/getBooksCount" class="nav-link" active-class="active">get books</RouterLink>
+                </li>
             </ul>
         </header>
     </div>
@@ -26,5 +28,4 @@
 <script setup>
 import { RouterLink, routerViewLocationKey } from 'vue-router';
 </script>
-<style scoped>
-</style>
+<style scoped></style>
