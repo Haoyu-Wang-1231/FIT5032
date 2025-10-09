@@ -14,7 +14,6 @@ import { ref } from 'vue';
 
 const count = ref(null);
 const error = ref(null);
-
 const getBookCount = async() => {
     try{
         const response = await axios.get("https://countbooks-yof7xvdqrq-uc.a.run.app");
@@ -26,5 +25,5 @@ const getBookCount = async() => {
         count.value = null;
     }
 };
-
 </script>
+

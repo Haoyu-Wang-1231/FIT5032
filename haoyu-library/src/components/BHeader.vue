@@ -21,6 +21,12 @@
                 <li class="nav-item">
                     <RouterLink to="/getBooksCount" class="nav-link" active-class="active">get books</RouterLink>
                 </li>
+                <li class="nav-item">
+                    <RouterLink to="/weatherCheck" class="nav-link" active-class="active">Weather check</RouterLink>
+                </li>
+                <li class="nav-item">
+                    <RouterLink to="/countBookAPI" class="nav-link" active-class="active">CountAPI</RouterLink>
+                </li>
             </ul>
         </header>
     </div>
