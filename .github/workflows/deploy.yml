@@ -33,6 +33,7 @@ jobs:
       with:
         branch: gh-pages
         folder: haoyu-library/dist
+        clean: true 
 
 permissions:
   contents: write
